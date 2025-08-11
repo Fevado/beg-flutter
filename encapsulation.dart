@@ -1,3 +1,7 @@
+// encapsulation is a method of hiding how something is 
+// processed and only showing the output 
+
+
 class Circle {
   // create a private variable _radius
   double _radius;
