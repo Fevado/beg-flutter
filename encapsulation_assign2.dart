@@ -63,6 +63,7 @@ void main() {
   s2.addMark(54);
   s2.addMark(37);
   s2.addMark(10);
+  s2.name = 'Ken';
 
   s1.displayInfo();
   s2.displayInfo();
