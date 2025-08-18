@@ -3,7 +3,7 @@ abstract class Appliances {
 
   Appliances(this.name);
 
-  void turnOn() {}
+  void turnOn();
 
   void turnOff() {
     print('The $name is now off');

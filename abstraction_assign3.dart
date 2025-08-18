@@ -3,7 +3,7 @@ abstract class Course {
 
   Course(this.title);
 
-  void startCourse() {}
+  void startCourse();
 
   void endCourse() {
     print('Course ended: $title');

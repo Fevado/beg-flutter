@@ -3,7 +3,7 @@ abstract class Instrument {
 
   Instrument(this.name);
 
-  void play() {}
+  void play();
 }
 
 class Guitar extends Instrument {
