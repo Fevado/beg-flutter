@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:ch4_starter_exercise/pages/home.dart';
 
-void main() {
-  runApp(const MainApp());
-}
+void main() => runApp(MyApp());
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
+class MyApp extends StatelessWidget {
+  // This is the root widget of my application
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Starter template',
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+        useMaterial3: false,
       ),
+      home: Home(),
     );
   }
 }
