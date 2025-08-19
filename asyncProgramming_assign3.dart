@@ -16,3 +16,5 @@ Future<void> main() async {
   var result = await Future.wait([fetchPosts(),fetchComments()]);
   print(result);
 }
+
+
