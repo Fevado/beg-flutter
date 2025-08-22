@@ -1,13 +1,14 @@
+// Flutter I am going to master you
 import 'package:flutter/material.dart';
 
-class Home extends StatefulWidget {
+class Home extends StatefulWidget{
   @override
-  _HomeState createState() => _HomeState();
+  _Homestate createState() => _Homestate();
 }
 
-class _HomeState extends State<Home> {
+class _Homestate extends State<Home>{
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
         title: Text('Home'),
@@ -16,5 +17,3 @@ class _HomeState extends State<Home> {
     );
   }
 }
-// Flutter I am going to master you
-
