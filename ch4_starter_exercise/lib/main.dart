@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ch4_starter_exercise/pages/home.dart';
+import 'package:ch4_starter_exercise/pages/about.dart';
 
-void main() =>( MyApp());
+void main() =>runApp( MyApp());
 
 class MyApp extends StatelessWidget{
   // The root widget of this appliction
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget{
         primarySwatch: Colors.blue,
         useMaterial3: false,
       ),
-      home: Home(),
+      home: About(),
     );
   }
 }
